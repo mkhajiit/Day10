@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+    <haed>
+        <meta charset="utf-8">
+        <title>MediaQuery</title>
+        <style>
+            @media print{
+                a{
+                    text-decoration:none;
+                }
+                a:after{
+                    display:inline;
+                    content: "(" attr(href) ")"
+                }
+            }
+        </style>
+    </haed>
+    <body>
+        <p>테스트용입니다.</p>
+        <p>미디어쿼리를 테스트 하는 중 입니다.</p>
+        <div>사이트를 한번 들어가볼까요 <a href="https://www.naver.com">네이버</a></div>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+    <haed>
+        <meta charset="utf-8">
+        <title>MediaQuery</title>
+        <style>
+            /* @media screen and (max-width: 767px){
+                body{
+                    background-color: lightgrey;
+                    }
+                }
+            @media screen and (min-width: 768px) and (max-width:1024px){
+                body{
+                    background-color: lightblue;
+                    }
+                }
+            @media screen and (min-width:1025px){
+                body{
+                    background-color: lightpink;
+                }
+            } */
+
+            /*mobile first // 우선시 할 기기의 width에 쿼리를 안쓰는듯*/
+            body{
+                    background-color: gold;
+                }
+            
+            @media screen and (min-width: 768px) and (max-width:1024px){
+                body{
+                    background-color: lightblue;
+                    }
+                }
+                @media screen and (min-width:1025px){
+                body{
+                    background-color: lightpink;
+                }
+                }
+        </style>
+    </haed>
+    <body>
+        <p>테스트용입니다.</p>
+        <p>미디어쿼리를 테스트 하는 중 입니다.</p>
+    </body>
+</html>
